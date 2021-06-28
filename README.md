@@ -83,6 +83,13 @@ Instruction:
 <img src="ScreanShots/product variable.png">
 <br>
 
+<h3>Users</h3>
+<img src="ScreanShots/users.png">
+<br>
+
+<h3>Plugin</h3>
+<img src="ScreanShots/plugin.png">
+<br>
 -- * Woocommerce: WooCommerce est la solution de commerce électronique open source la plus populaire au monde . Que vous lanciez une entreprise, que vous mettiez en ligne la vente au détail de briques et de mortier ou que vous développiez des sites pour des clients, utilisez WooCommerce pour un magasin qui allie puissamment contenu et commerce.
 
 Créez de belles vitrines attrayantes avec des thèmes adaptés à votre marque et à votre secteur d'activité. Personnalisez les pages en quelques minutes à l' aide de blocs de produits modulaires . Présentez les produits physiques et numériques, les variations de produits, les configurations personnalisées, les téléchargements instantanés et les articles affiliés. Les réservations , les adhésions , les abonnements et les règles de tarification dynamique ne sont qu'une extension. Atteignez le sommet des résultats de recherche en tirant parti de l'avantage SEO de WordPress .
