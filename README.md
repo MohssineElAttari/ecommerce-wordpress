@@ -87,6 +87,10 @@ Instruction:
 <img src="ScreanShots/users.png">
 <br>
 
+<h3>User</h3>
+<img src="ScreanShots/user.png">
+<br>
+
 <h3>Plugin</h3>
 <img src="ScreanShots/plugin.png">
 <br>
