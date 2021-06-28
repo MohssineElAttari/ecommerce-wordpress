@@ -56,31 +56,31 @@ Instruction:
 <h2>ScreanShots</h2>
 
 <h3>logo</h3>
-<img src="logo.png">
+<img src="ScreanShots/logo.png">
 <br>
 
 <h3>home</h3>
-<img src="home.png">
+<img src="ScreanShots/home.png">
 <br>
 
 <h3>shop</h3>
-<img src="shop.png">
+<img src="ScreanShots/shop.png">
 <br>
 
 <h3>about</h3>
-<img src="about.png">
+<img src="ScreanShots/about.png">
 <br>
 
 <h3>contact</h3>
-<img src="contact.png"><br>
+<img src="ScreanShots/contact.png"><br>
 <br>
 
 <h3>product simple</h3>
-<img src="product simple.png">
+<img src="ScreanShots/product simple.png">
 <br>
 
 <h3>product variable</h3>
-<img src="product variable.png">
+<img src="ScreanShots/product variable.png">
 <br>
 
 -- * Woocommerce: WooCommerce est la solution de commerce électronique open source la plus populaire au monde . Que vous lanciez une entreprise, que vous mettiez en ligne la vente au détail de briques et de mortier ou que vous développiez des sites pour des clients, utilisez WooCommerce pour un magasin qui allie puissamment contenu et commerce.
