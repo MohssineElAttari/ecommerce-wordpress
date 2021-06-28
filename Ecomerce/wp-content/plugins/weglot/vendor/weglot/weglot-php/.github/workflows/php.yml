@@ -1,0 +1,72 @@
+name: PHP Composer
+
+on:
+    push:
+        branches: [ develop,master ]
+    pull_request:
+        branches: [ develop,master ]
+
+jobs:
+    run:
+        runs-on: ${{ matrix.operating-system }}
+        strategy:
+            matrix:
+                operating-system: [ 'ubuntu-16.04' ]
+                php-versions: [ '5.6', '7.0', '7.1', '7.2', '7.4' ]
+                phpunit-versions: [ 'latest' ]
+                #include:
+                    #-   operating-system: 'ubuntu-latest'
+                    #    php-versions: '7.2'
+                    #    phpunit-versions: '8.5.13'
+        steps:
+            -   name: Checkout
+                uses: actions/checkout@v2
+
+            -   name: Make envfile
+                uses: SpicyPizza/create-envfile@v1
+                with:
+                    envkey_DEBUG: false
+                    envkey_WG_API_KEY: ${{ secrets.WG_API_KEY }}
+                    envkey_REDIS_SCHEME: tcp
+                    envkey_REDIS_HOST: 127.0.0.1
+                    envkey_REDIS_PORT: 6379
+                    file_name: .env
+            -   name: Setup PHP
+                uses: shivammathur/setup-php@v2
+                with:
+                    php-version: ${{ matrix.php-versions }}
+                    extensions: mbstring, intl
+                    ini-values: post_max_size=256M, max_execution_time=180
+                    coverage: xdebug
+                    tools: php-cs-fixer, phpunit:${{ matrix.phpunit-versions }}
+
+            -   name: Redis Server in GitHub Actions
+                uses: supercharge/redis-github-action@1.1.0
+
+            -   name: Cache Composer packages
+                id: composer-cache
+                uses: actions/cache@v2
+                with:
+                    path: vendor
+                    key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+                    restore-keys: |
+                        ${{ runner.os }}-php-
+
+            -   name: Install dependencies
+                run: composer update --no-progress --no-suggest --ansi --prefer-dist && composer require cache/predis-adapter
+
+            #-   name: before test
+            #    run: cp .env.dist .env && sed -i "8s/.*/WG_API_KEY=$WG_API_KEY/" .env
+
+            -   name: Validate composer.json and composer.lock
+                run: composer validate --strict
+
+            -   name: launch test
+                run: ./vendor/bin/codecept run unit --no-interaction
+
+
+    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
+    # Docs: https://getcomposer.org/doc/articles/scripts.md
+
+    # - name: Run test suite
+    #   run: composer run-script test

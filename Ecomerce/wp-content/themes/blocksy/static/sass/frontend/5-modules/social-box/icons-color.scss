@@ -1,0 +1,243 @@
+// official colors
+[data-color="official"] {
+	> * {
+		--transition: opacity 0.12s cubic-bezier(.455,.03,.515,.955);
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+
+	.ct-icon-container {
+		--icon-color: var(--official-color);
+		--icon-hover-color: var(--official-color);
+	}
+
+	.ct-label {
+		color: var(--official-color);
+	}
+
+	&[data-icons-type*="solid"] .ct-icon-container {
+		--icon-color: #fff;
+		--icon-hover-color: #fff;
+		background-color: var(--official-color);
+	}
+
+	&[data-icons-type*="outline"] .ct-icon-container {
+		border: 1px solid var(--official-color);
+	}
+
+
+	// networks
+	[data-network='facebook'] {
+		--official-color: #557dbc;
+	}
+
+	[data-network='facebook_group'] {
+		--official-color: #3D87FB;
+	}
+
+	[data-network='discord'] {
+		--official-color: #7187D4;
+	}
+
+	[data-network='tripadvisor'] {
+		--official-color: #40DFA3;
+	}
+
+	[data-network='foursquare'] {
+		--official-color: #F84A7A;
+	}
+
+	[data-network='yelp'] {
+		--official-color: #CA252A;
+	}
+
+	[data-network='twitter'] {
+		--official-color: #7acdee;
+	}
+
+	[data-network='instagram'] {
+		--official-color: #ED1376;
+	}
+
+	[data-network='pinterest'] {
+		--official-color: #ea575a;
+	}
+
+	[data-network='dribbble'] {
+		--official-color: #d77ea6;
+	}
+
+	[data-network='behance'] {
+		--official-color: #1B64F6;
+	}
+
+	[data-network='unsplash'] {
+		--official-color: #000000;
+	}
+
+	[data-network='five-hundred-px'] {
+		--official-color: #000000;
+	}
+
+	[data-network='linkedin'] {
+		--official-color: #1c86c6;
+	}
+
+	[data-network='parler'] {
+		--official-color: #BC2131;
+	}
+
+	[data-network='mastodon'] {
+		--official-color: #368AD2;
+	}
+
+	[data-network='medium'] {
+		--official-color: #292929;
+	}
+
+	[data-network='slack'] {
+		--official-color: #4E1850;
+	}
+
+	[data-network='codepen'] {
+		--official-color: #000000;
+	}
+
+	[data-network='reddit'] {
+		--official-color: #FC471E;
+	}
+
+	[data-network='twitch'] {
+		--official-color: #9150FB;
+	}
+
+	[data-network='tiktok'] {
+		--official-color: #000000;
+	}
+
+	[data-network='snapchat'] {
+		--official-color: #f9d821;
+	}
+
+	[data-network='spotify'] {
+		--official-color: #2AB859;
+	}
+
+	[data-network='soundcloud'] {
+		--official-color: #FD561F;
+	}
+
+	[data-network='apple_podcast'] {
+		--official-color: #933AC3;
+	}
+
+	[data-network='patreon'] {
+		--official-color: #e65c4b;
+	}
+
+	[data-network='alignable'] {
+		--official-color: #4A396F;
+	}
+
+	[data-network='vk'] {
+		--official-color: #5382b6;
+	}
+
+	[data-network='youtube'] {
+		--official-color: #e96651;
+	}
+
+	[data-network='dtube'] {
+		--official-color: #233253;
+	}
+
+	[data-network='vimeo'] {
+		--official-color: #8ecfde;
+	}
+
+	[data-network='rss'] {
+		--official-color: #f09124;
+	}
+
+	[data-network='whatsapp'] {
+		--official-color: #5BBA67;
+	}
+
+	[data-network='viber'] {
+		--official-color: #7F509E;
+	}
+
+	[data-network='telegram'] {
+		--official-color: #229CCE;
+	}
+
+	[data-network='line'] {
+		--official-color: #20BE60;
+	}
+
+	[data-network='xing'] {
+		--official-color: #0A5C5D;
+	}
+
+	[data-network='weibo'] {
+		--official-color: #E41C34;
+	}
+
+	[data-network='tumblr'] {
+		--official-color: #314255;
+	}
+
+	[data-network='qq'] {
+		--official-color: #487FC8;
+	}
+
+	[data-network='wechat'] {
+		--official-color: #2DC121;
+	}	
+
+	[data-network='strava'] {
+		--official-color: #2DC121;
+	}
+
+	[data-network='flickr'] {
+		--official-color: #0F64D1;
+	}
+
+	[data-network='phone'] {
+		--official-color: #244371;
+	}
+
+	[data-network='email'] {
+		--official-color: #392C44;
+	}
+
+	[data-network='github'] {
+		--official-color: #24292E;
+	}
+
+	[data-network='gitlab'] {
+		--official-color: #F8713F;
+	}
+
+	[data-network='skype'] {
+		--official-color: #1CAAE7;
+	}
+
+	[data-network='wordpress'] {
+		--official-color: #1074A8;
+	}
+
+	[data-network="hacker_news"] {
+		--official-color: #FD6721;	
+	}
+
+	[data-network="ok"] {
+		--official-color: #EB7E2F;
+	}
+
+	[data-network="flipboard"] {
+		--official-color: #C40812;	
+	}
+}

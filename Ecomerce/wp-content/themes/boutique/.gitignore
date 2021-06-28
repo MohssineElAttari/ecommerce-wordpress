@@ -1,0 +1,12 @@
+# Sass
+.sass-cache
+
+# Codekit
+config.codekit
+
+# MacOS
+.DS_Store
+
+# Grunt
+/node_modules/
+npm-debug.log

@@ -1,0 +1,14 @@
+2021-06-26T08:03:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\Ecomerce\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AdminView.php on line 7
+
+2021-06-26T08:03:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\Ecomerce\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\SetUpAdditionalPaymentTypes.php on line 11
+
+2021-06-26T08:04:00+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\Ecomerce\wp-content\themes\blocksy\inc\components\social-box.php on line 3
+
+2021-06-26T08:06:06+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\Ecomerce\wp-includes\class-wp-admin-bar.php on line 15
+
+2021-06-26T08:06:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\Ecomerce\wp-includes\Requests\Transport\cURL.php on line 441
+
+2021-06-26T08:06:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\Ecomerce\wp-includes\Requests\Transport\cURL.php on line 441
+
+2021-06-26T17:58:37+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 8192 bytes) in C:\xampp\htdocs\Ecomerce\wp-content\plugins\wordpress-seo\src\generators\open-graph-locale-generator.php on line 53
+

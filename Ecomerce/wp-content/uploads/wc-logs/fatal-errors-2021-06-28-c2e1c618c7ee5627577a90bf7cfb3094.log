@@ -1,0 +1,8 @@
+2021-06-28T09:51:39+00:00 CRITICAL Out of memory (allocated 14680064) (tried to allocate 647168 bytes) in C:\xampp\htdocs\Ecomerce\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\AssetDataRegistry.php on line 339
+
+2021-06-28T09:53:27+00:00 CRITICAL Out of memory (allocated 18874368) (tried to allocate 815104 bytes) in C:\xampp\htdocs\Ecomerce\wp-includes\class.wp-scripts.php on line 405
+
+2021-06-28T09:53:39+00:00 CRITICAL Out of memory (allocated 10485760) (tried to allocate 987136 bytes) in C:\xampp\htdocs\Ecomerce\wp-includes\class.wp-scripts.php on line 301
+
+2021-06-28T11:25:06+00:00 CRITICAL Out of memory (allocated 60817408) (tried to allocate 8192 bytes) in C:\xampp\htdocs\Ecomerce\wp-content\plugins\elementor\modules\landing-pages\module.php on line 259
+

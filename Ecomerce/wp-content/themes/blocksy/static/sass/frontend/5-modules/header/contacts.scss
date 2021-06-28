@@ -1,0 +1,14 @@
+.ct-contact-info {
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		margin: calc(var(--items-spacing, 15px) / -2);
+		margin-bottom: 0;
+
+		li {
+			margin: calc(var(--items-spacing, 15px) / 2);
+			margin-bottom: 0;
+		}
+	}
+}

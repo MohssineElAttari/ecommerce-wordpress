@@ -1,0 +1,10 @@
+nav[class*="menu"] {
+	
+	> ul > li:hover > a,
+	li a:hover,
+	li a.ct-highlight,
+	li[class*="current-menu-"] > a {
+		color: var(--linkHoverColor);
+		--icon-color: var(--icon-hover-color, var(--linkHoverColor));
+	}
+}
