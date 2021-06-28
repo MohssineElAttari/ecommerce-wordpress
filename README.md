@@ -1,10 +1,11 @@
 # ecommerce-wordpress
-CONTEXT DU PROJET
+
+<h2>CONTEXT DU PROJET</h2>
 
 Vous êtes amenés à creer votre site E-commerce avec WordPress et le plugin -WooCommerce-
 
 ​
-Travail à faire:
+<h2>Travail à faire : </h2>
 
 Installer Wordpress après le téléchargement de son code source.
 
@@ -50,6 +51,37 @@ Instruction:
 5 - Type du Projet: Woocommerce Website.
 
 6 - Téléchargement du plugin ELEMENTOR PRO - Weglot - Yoast SEO - Woocommerce - Cookie Notice & Compliance for GDPR .
+
+
+<h2>ScreanShots</h2>
+
+<h3>logo</h3>
+<img src="logo.png">
+<br>
+
+<h3>home</h3>
+<img src="home.png">
+<br>
+
+<h3>shop</h3>
+<img src="shop.png">
+<br>
+
+<h3>about</h3>
+<img src="about.png">
+<br>
+
+<h3>contact</h3>
+<img src="contact.png"><br>
+<br>
+
+<h3>product simple</h3>
+<img src="product simple.png">
+<br>
+
+<h3>product variable</h3>
+<img src="product variable.png">
+<br>
 
 -- * Woocommerce: WooCommerce est la solution de commerce électronique open source la plus populaire au monde . Que vous lanciez une entreprise, que vous mettiez en ligne la vente au détail de briques et de mortier ou que vous développiez des sites pour des clients, utilisez WooCommerce pour un magasin qui allie puissamment contenu et commerce.
 
